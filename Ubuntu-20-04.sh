@@ -36,7 +36,7 @@ sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_
 sudo apt install --no-install-recommends r-base -y
 
 #add packages
-sudo add-apt-repository ppa:c2d4u.team/c2d4u4.0+
+sudo add-apt-repository ppa:c2d4u.team/c2d4u4.0+ -y
 #install dependency packages
 sudo apt-get install libcurl4-openssl-dev libssl-dev libxml2-dev libgit2-dev libpq-dev -y
 sudo apt install --no-install-recommends r-cran-tidyverse -y
