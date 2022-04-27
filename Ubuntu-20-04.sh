@@ -6,11 +6,11 @@ source ~/.bashrc
 
 #update system section ---
 #use alias
-update
+sudo apt --fix-broken install -y && sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y
 
 #Hardware drivers drivers
 sudo ubuntu-drivers autoinstall
-update
+sudo apt --fix-broken install -y && sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y
 sudo ubuntu-drivers autoinstall
 
 #build essentials
@@ -61,7 +61,7 @@ sudo echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
   
-update
+sudo apt --fix-broken install -y && sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y
 
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 
@@ -86,6 +86,6 @@ sudo rm -f packages.microsoft.gpg
 
 sudo apt install apt-transport-https -y
 
-update
+sudo apt --fix-broken install -y && sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y
 
 sudo apt install code -y
