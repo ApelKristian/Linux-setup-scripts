@@ -17,9 +17,6 @@ sudo ubuntu-drivers autoinstall
 sudo apt-get install build-essential -y
 sudo apt-get install libz-dev -y
 sudo apt-get install chrome-gnome-shell -y
-sudo add-apt-repository ppa:oguzhaninan/stacer -y
-sudo apt-get update -y 
-sudo apt-get install stacer -y
 
 #magick and tesseract and EML package for emails
 sudo apt install libmagick++-dev -y
