@@ -18,11 +18,12 @@ sudo apt-get install build-essential -y
 sudo apt-get install libz-dev -y
 sudo apt-get install chrome-gnome-shell -y
 
-#magick and tesseract
+#magick and tesseract and EML package for emails
 sudo apt install libmagick++-dev -y
 sudo apt install libpoppler-cpp-dev -y
 sudo apt install libtesseract-dev libleptonica-dev -y
 sudo apt install apt-get install tesseract-ocr-eng -y
+sudo apt install libjq-dev -y
 
 #Software section 
 #install yt-download
