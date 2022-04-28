@@ -18,8 +18,13 @@ sudo apt-get install build-essential -y
 sudo apt-get install libz-dev -y
 sudo apt-get install chrome-gnome-shell -y
 
+#magick and tesseract
+sudo apt install libmagick++-dev -y
+sudo apt install libpoppler-cpp-dev -y
+sudo apt install libtesseract-dev libleptonica-dev -y
+sudo apt install apt-get install tesseract-ocr-eng -y
 
-#Software section
+#Software section 
 #install yt-download
 sudo apt-get install ffmpeg -y
 sudo snap install youtube-dl
@@ -58,6 +63,7 @@ sudo apt-get install \
     curl \
     gnupg \
     lsb-release
+    
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 
 sudo echo \
