@@ -77,7 +77,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 #docker perms
 sudo groupadd docker
 sudo usermod -aG docker $USER
-sudo newgrp docker 
+newgrp docker 
 
 #install Rstudio
 cd ~/Downloads/
